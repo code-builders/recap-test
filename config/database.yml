@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: recap_test_production
-  username: recap_test
+  username: bookis
   password: <%= ENV['RECAP_TEST_DATABASE_PASSWORD'] %>
